@@ -1,6 +1,6 @@
 package domain;
 
 public class RepostInfo {
-    private boolean repost;
+    private boolean repost; // аналог user_reposted
     private int repostCounter;
 }
