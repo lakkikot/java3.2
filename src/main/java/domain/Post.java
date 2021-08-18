@@ -5,7 +5,7 @@ public class Post {
     private int postId; // id
     private String postDataTime; // аналог date, в документации int
 
-    private int groupId; // аналог owner_id
+    private int ownerId; // было groupId, переименовала чтобы не путаться
     private String groupLogo;
     private String groupName;
     private String groupUrl;
